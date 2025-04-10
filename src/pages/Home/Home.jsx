@@ -1,13 +1,12 @@
 
-import { StatusBar } from 'expo-status-bar';
-import { Body } from './Styles';
-import { Text } from 'react-native';
 
+import { Body,Title } from './Styles';
+import { SubmitForm } from '../../components';
 export default function Home (){
     return (    
     <Body >
-        <Text>Open up App.js to start working on your app!</Text>
-        <StatusBar style="auto" />
+        <Title>ADICIONAR NOVA ÁREA PRESERVADA</Title>
+        <SubmitForm></SubmitForm>
     </Body>
     )
 }
